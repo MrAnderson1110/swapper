@@ -1,0 +1,12 @@
+diff --git a/include/web3cpp/DB.h b/include/web3cpp/DB.h
+index 7e4a6a5..97a8307 100644
+--- a/include/web3cpp/DB.h
++++ b/include/web3cpp/DB.h
+@@ -7,6 +7,7 @@
+ #include <nlohmann/json.hpp>
+ #include <boost/filesystem.hpp>
+ #include <leveldb/db.h>
++#include <mutex>
+ 
+ using json = nlohmann::ordered_json;
+ 
