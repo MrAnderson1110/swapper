@@ -1,3 +1,7 @@
 [submodule "web3cpp"]
 	path = src/3rdparty/web3cpp
 	url = https://github.com/avme/web3cpp.git
+[submodule "qt5"]
+	path = src/3rdparty/qt
+	url = https://github.com/qt/qt5.git
+	branch = 6.2.4
